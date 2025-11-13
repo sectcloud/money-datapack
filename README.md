@@ -140,3 +140,5 @@ you’ll also need to create corresponding files in your resource pack:
 ## This Datapack Follows Conventions
 
 You can read them [here](https://mc-datapacks.github.io/en/index.html)
+
+<img src="https://i.imgur.com/ltLPoQp.png" width="100%" alt="certified-datapack"/>
