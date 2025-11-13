@@ -67,6 +67,30 @@ Then delete the datapack archive file.
 
 The datapack is fully customizable. You can change textures for existing banknote denominations — or even add or remove denominations entirely.
 
+#### 🏷 Changing the Currency Name
+
+You may also want to rename your currency — and you can easily do that.
+
+Locate the file in your resource pack:
+
+```file
+/assets/sc_economycraft/lang/en_us.json // And all languages you need
+```
+
+```json
+"scec.money":"Money",
+"scec.moneyformat":"%s Coins",
+"item.scec.cash_1":"1 Coin",
+"item.scec.cash_10":"10 Coins",
+"item.scec.cash_50":"50 Coins",
+"item.scec.cash_100":"100 Coins",
+"item.scec.cash_200":"200 Coins",
+"item.scec.cash_500":"500 Coins",
+"item.scec.cash_1000":"1000 Coins",
+"item.scec.cash_5000":"5000 Coins",
+```
+
+
 #### 🎨 Change Texture for present denominations
 
 Simply replace the texture files in your resource pack.
@@ -111,7 +135,7 @@ To **add** or **remove** denominations:
         data modify storage sc_economycraft:banknotes length_minus_one set value 7
         ```
 
-#### Tipp
+#### 💡 Tip
 
 If you add new denominations that don’t exist in the default setup,
 you’ll also need to create corresponding files in your resource pack:
@@ -136,6 +160,8 @@ you’ll also need to create corresponding files in your resource pack:
     ```
 - `/assets/textures/cash_$your_value$.png`
     (This is the actual texture image for your new banknote.)
+
+And also you need to make localization for your new denominations (see [here](#-change-curency-name`))
 
 ## This Datapack Follows Conventions
 
