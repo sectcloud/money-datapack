@@ -1,0 +1,1 @@
+tellraw @s ["",{"translate":"chat.scec.error.cantpayyourself","color":"red"}]

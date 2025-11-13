@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"Недостаточно ", "color": "gold"},{"text":"клинкоинов","color":"aqua"}]

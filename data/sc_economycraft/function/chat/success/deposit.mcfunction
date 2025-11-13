@@ -1,0 +1,1 @@
+tellraw @s ["",{translate:"chat.scec.success.deposit", with:[{translate:"scec.moneyformat", with:[{"score":{"name":"@s","objective":"ec.cash_counter"}}], color:"gold"}]}]

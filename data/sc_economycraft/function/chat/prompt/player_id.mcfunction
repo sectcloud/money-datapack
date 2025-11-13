@@ -1,0 +1,2 @@
+tellraw @a {type:"translatable", translate:"chat.scec.prompt.enterplayerid", color:"blue", click_event:{action:"suggest_command", command:"/trigger ec.pay.id set "}, with:[{text:"ID", color:"gold", underlined:true, hover_event:{action:"show_text",value:[{type:"translatable", translate:"chat.scec.info.presstabtoseeids", with:[{"keybind":"key.playerlist"}], color:"green"}]}}]}
+tag @s add ec.id_prompted

@@ -1,0 +1,1 @@
+tellraw @s ["",{translate:"chat.scec.success.withdraw", with:[{translate:"scec.moneyformat", with:[{"score":{"name":"withdraw","objective":"ec.TEMP"}}], color:"gold"}]}]

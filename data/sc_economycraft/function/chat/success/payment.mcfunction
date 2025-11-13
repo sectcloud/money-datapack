@@ -1,0 +1,2 @@
+tellraw @a[tag=ec.sender] ["",{translate:"chat.scec.success.yousentmoney", color:"green", with:[{translate:"scec.moneyformat", with:[{"score":{"name":"transaction","objective":"ec.pay.amount"}}], color:"gold"}, {"selector":"@a[tag=ec.recipient]", "color":"gold"}]}]
+tellraw @a[tag=ec.recipient] ["",{translate:"chat.scec.success.youreceivedmoney", color:"green", with:[{translate:"scec.moneyformat", with:[{"score":{"name":"transaction","objective":"ec.pay.amount"}}], color:"gold"}, {"selector":"@a[tag=ec.sender]", "color":"gold"}]}]

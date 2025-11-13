@@ -1,0 +1,1 @@
+$give @s paper[custom_data={ec:{is_cash: true, cash:$(b)}}, item_name={translate:"item.scec.cash_$(b)", italic:false, color:gold}, minecraft:item_model="sc_economycraft:cash_$(b)"] $(c)

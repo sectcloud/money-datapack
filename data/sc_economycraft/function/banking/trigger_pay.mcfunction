@@ -1,1 +1,0 @@
-tellraw @a {type:"translatable", translate:"chat.scec.enterplayerid", underlined:true, color:"blue", hover_event:{action:"show_text",value:[{type:"translatable", translate:"chat.scec.presstabtoseeids", with:[{"keybind":"key.playerlist"}], color:"green"}]}}
